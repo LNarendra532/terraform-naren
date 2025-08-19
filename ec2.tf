@@ -1,5 +1,5 @@
-resource "aws_security_group" "allow_all" {
-  name = "allow_all"
+resource "aws_security_group" "allow_all-123" {
+  name = "allow_all-123"
   description = "allow all traffic"
 
     ingress {
@@ -19,7 +19,7 @@ resource "aws_security_group" "allow_all" {
             }
 
   tags = {
-    Name = "allow-all"
+    Name = "allow-all-123"
         }
 
 }
